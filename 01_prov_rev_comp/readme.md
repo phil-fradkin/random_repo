@@ -27,6 +27,12 @@ expected number of kmers 732421.875
 > Subtract CDF of Poisson RV at lower bound (expected value - 1%) from CDF of Poisson RV at upper bound (expected value + 1%)
 
 ```
-probability of observing a kmer count between upper bound: 739746 and lower bound 725097 defined by 1 higher and lower of expected count% 1.0  under Poisson distribution with lambda = 732421
+probability of observing a kmer count between 
+- upper bound: 739746 
+- lower bound 725097
+which are defined by 1% higher and lower of expected count
+which is 732421
+
+under Poisson distribution
 ```
 
