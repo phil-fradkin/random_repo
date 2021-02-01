@@ -1,4 +1,4 @@
-## Chargaff's second party rule test
+## Chargaff's second parity rule test
 
 I was curious to see what is the probability of observing a very close count difference between a kmer and it's reverse compliment in a genome. 
 
