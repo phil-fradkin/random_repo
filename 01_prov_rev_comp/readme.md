@@ -36,3 +36,18 @@ which is 732421
 under Poisson distribution
 ```
 
+#### Simulation
+
+The idea is that we can simulate a single DNA strand and then count the number of kmers on it. Through that we can estimate if the counts of kmers and their reverse compliments are closer than count of kmer and a random other kmer pair.
+
+Plot of randomly chosen kmers and their reverse compliment counts:
+![](./bar_kmer_rc_counts.png)
+
+Plot of distribution of kmer counts:
+![](./dist_kmer_counts.png)
+
+If we take all the pairs of kmers and their reverse compliments then take their variances and average across all pairs, we now have a single number statistic describing the average variability of a kmer and it's reverse compliment.
+
+We can do the same thing for kmers and a random other kmer and compute those average of variances of pairs. Then we can visualize the distribution of the means of averages. On top of that we can visualize whether our mean of variances for kmer and it's reverse compliment is an outlier
+
+![](./dist_means_variances_kmer_count_pairs.png)
